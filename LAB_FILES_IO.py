@@ -40,6 +40,8 @@ def main() -> NoReturn:
                     add_note()
                 case "n" | "N":
                     read_note()
+                    print("\n(●'◡'●) Goodbye")
+                    break
                 case _:
                     raise Exception(
                         "Please answer by \"y\" for yes and \"n\" for no")
