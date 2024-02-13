@@ -1,0 +1,3 @@
+go running
+go to the barber
+go to home
