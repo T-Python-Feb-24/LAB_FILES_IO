@@ -16,7 +16,7 @@ def main():
     while True:
         print("type 1 to add an item to the list")
         print("type 2 to show the items in the list")
-        print("type exit to terminate the programe")
+        print("type 3 to terminate the program")
         userInput = input("Choice: ")
         if userInput.upper() == "1":
             print(addToDO())
